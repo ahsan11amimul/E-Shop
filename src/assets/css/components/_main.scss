@@ -1,0 +1,18 @@
+.app-header{
+  background-color: var(--app-main-color);
+  height: var(--app-header-height);
+}
+.wrapper{
+  background-color: var(--app-content-bg);
+  height: calc( 100vh - var(--app-header-height));
+  .sidebar-wrapper{
+    height: 100%;
+    background-color: var(--app-sidebar-color);
+    position: fixed;
+    width: var(--app-sidebar-width);
+  }
+  .main-container{
+    margin-left: var(--app-sidebar-width);
+    height: 100%;
+  }
+}

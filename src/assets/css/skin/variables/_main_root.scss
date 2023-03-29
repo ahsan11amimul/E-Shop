@@ -1,0 +1,16 @@
+
+:root{
+  /* Colors*/
+  --app-main-color:#{$main_color};
+  --app-main-dark:#{$main_color_dark};
+  --app-main-light:#{$main_color_light};
+  --app-main-very-light:#{rgba($main_color_light,0.5)};
+
+  --app-content-bg: #ffffff;
+  --app-header-height:80px;
+
+  --app-sidebar-width:240px;
+  --app-sidebar-color:#{$sidebar_color};
+
+
+}
